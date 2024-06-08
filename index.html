@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+       <div class="title">
+            <h1>Random Password Generator</h1>
+            <h2>JAKARIA HASAN</h2>
+       </div>
+        <div class="container">
+            <div class="pass-box">
+                <input type="text" name="" id="password">
+            </div>
+            <div class="contains">
+                <label for="password-Length ">Password Length </label>
+                <input class="select" id="passLength" type="text">
+            </div>
+
+            <div class="selector">
+                <div class="contains">
+                    <label for="vehicle1"> Contains Uppercase</label>
+                    <input class="select" type="checkbox" id="upperCase" name="upperCase" value="upperCase">
+                </div>
+               
+                <div class="contains">
+                    <label for="vehicle1"> Contains Lowercase</label>
+                <input class="select" type="checkbox" id="lowerCase" name="lowerCase" value="lowerCase">
+                </div>
+                
+                <div class="contains">
+                    <label for="vehicle1"> Contains Numbers</label>
+                <input class="select" type="checkbox" id="numbers" name="numbers" value="numbers">
+                </div>
+                
+                <div class="contains">
+                    <label for="vehicle1"> Contains Symbols</label>
+                <input class="select" type="checkbox" id="symbols" name="symbols" value="symbols">
+                </div>
+                
+            </div>
+           
+            <button id="btn">Generate Password</button>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
